@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace openSGPT.administracion.Usuarios
+namespace openSGPT.administracion
 {
     /// <summary>
-    /// Interaction logic for RolDetalle.xaml
+    /// Interaction logic for UsuarioDetalle.xaml
     /// </summary>
-    public partial class RolDetalle : UserControl
+    public partial class UsuarioDetalle : UserControl
     {
-        public RolDetalle()
+        public UsuarioDetalle()
         {
             InitializeComponent();
         }

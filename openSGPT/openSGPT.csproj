@@ -59,6 +59,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="administracion\UsuarioManteniento.xaml.cs">
+      <DependentUpon>UsuarioManteniento.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pruebas.xaml.cs">
       <DependentUpon>pruebas.xaml</DependentUpon>
     </Compile>
@@ -66,19 +69,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="administracion\OpcionDetalle.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="administracion\OpocionList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="administracion\RolDetalle.xaml">
+    <Page Include="administracion\RolesMantenimiento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="administracion\RolList.xaml">
+    <Page Include="administracion\UsuarioManteniento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -93,17 +92,11 @@
     <Compile Include="administracion\MenuPrincipal.xaml.cs">
       <DependentUpon>MenuPrincipal.xaml</DependentUpon>
     </Compile>
-    <Compile Include="administracion\OpcionDetalle.xaml.cs">
-      <DependentUpon>OpcionDetalle.xaml</DependentUpon>
-    </Compile>
     <Compile Include="administracion\OpocionList.xaml.cs">
       <DependentUpon>OpocionList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="administracion\RolDetalle.xaml.cs">
-      <DependentUpon>RolDetalle.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="administracion\RolList.xaml.cs">
-      <DependentUpon>RolList.xaml</DependentUpon>
+    <Compile Include="administracion\RolesMantenimiento.xaml.cs">
+      <DependentUpon>RolesMantenimiento.xaml</DependentUpon>
     </Compile>
     <Compile Include="administracion\UsuarioPerfil.xaml.cs">
       <DependentUpon>UsuarioPerfil.xaml</DependentUpon>
