@@ -59,6 +59,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="administracion\ParametrosMantenimiento.xaml.cs">
+      <DependentUpon>ParametrosMantenimiento.xaml</DependentUpon>
+    </Compile>
     <Compile Include="administracion\UsuarioManteniento.xaml.cs">
       <DependentUpon>UsuarioManteniento.xaml</DependentUpon>
     </Compile>
@@ -72,6 +75,10 @@
     <Page Include="administracion\OpocionList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="administracion\ParametrosMantenimiento.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="administracion\RolesMantenimiento.xaml">
       <SubType>Designer</SubType>

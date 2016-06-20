@@ -18,9 +18,9 @@ namespace openSGPT.administracion
     /// <summary>
     /// Interaction logic for RolList.xaml
     /// </summary>
-    public partial class RolesMantenimiento : UserControl
+    public partial class ParametrosMantenimiento : UserControl
     {
-        public RolesMantenimiento()
+        public ParametrosMantenimiento()
         {
             InitializeComponent();
         }
