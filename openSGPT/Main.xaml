@@ -1,0 +1,28 @@
+﻿<Window  x:Class="openSGPT.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mdi="clr-namespace:Hammer.MDIContainer.Control;assembly=Hammer.MDIContainer.Control"
+        xmlns:local="clr-namespace:openSGPT"
+        Title="Sistema de gestion de papeles de trabajo - UES 2016" Height="600" Width="800"  Icon="imagenes/Supervisor.ico">
+    <Grid Margin="0,0,0,0">
+
+        <DockPanel Margin="0,0,0,0">
+            <Menu x:Name="menu" DockPanel.Dock="Top" HorizontalAlignment="Left" Height="20" Margin="0,0,0,0" VerticalAlignment="Top" >
+                <MenuItem Name="menuArchivos" Header="Archvivo">
+                    <MenuItem Name="menuSalir" Header="Salir/Cerrar" Click="menuSalir_Click"/>
+                </MenuItem>
+                <MenuItem Name="menuAyuda" Header="ayuda" HorizontalAlignment="Right">
+                    <MenuItem Name="menuInformacion" Header="Informacion"/>
+                </MenuItem>
+            </Menu>
+
+            <UserControl Name="usrCntbody" DockPanel.Dock="Right"/>
+
+        </DockPanel>
+
+    </Grid>
+
+
+</Window>

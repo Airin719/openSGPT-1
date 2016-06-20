@@ -1,0 +1,9 @@
+﻿<Application x:Class="openSGPT.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:openSGPT"
+             StartupUri="administracion/UsuarioPerfil.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
