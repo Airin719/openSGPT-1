@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:openSGPT"
         mc:Ignorable="d"
+        
         Icon="imagenes/Supervisor.ico"
-        Title="SGPT" Height="200" Width="425">
+        Title="SGPT" Height="200" Width="425" ResizeMode="NoResize">
     <Grid Margin="3,3,3,3">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -28,7 +29,9 @@
                     Grid.Row="0" 
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    FontSize="18"> 
+                    FontSize="18" 
+                    RenderSize=""
+                    TextDecorations="{x:Null}"> 
             Sistem de gestion de Papeles de Tabajo
         </TextBlock>
 
