@@ -59,6 +59,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="administracion\GestionControlReuniones.xaml.cs">
+      <DependentUpon>GestionControlReuniones.xaml</DependentUpon>
+    </Compile>
     <Compile Include="administracion\GestionFirmasManteniento.xaml.cs">
       <DependentUpon>GestionFirmasManteniento.xaml</DependentUpon>
     </Compile>
@@ -77,6 +80,10 @@
     <Compile Include="pruebas.xaml.cs">
       <DependentUpon>pruebas.xaml</DependentUpon>
     </Compile>
+    <Page Include="administracion\GestionControlReuniones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="administracion\GestionFirmasManteniento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
