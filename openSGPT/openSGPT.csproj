@@ -68,6 +68,9 @@
     <Compile Include="administracion\UsuarioManteniento.xaml.cs">
       <DependentUpon>UsuarioManteniento.xaml</DependentUpon>
     </Compile>
+    <Compile Include="administracion\ControlCorrespondencia.xaml.cs">
+      <DependentUpon>ControlCorrespondencia.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pruebas.xaml.cs">
       <DependentUpon>pruebas.xaml</DependentUpon>
     </Compile>
@@ -96,6 +99,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="administracion\UsuarioPerfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="administracion\ControlCorrespondencia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

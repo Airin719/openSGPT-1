@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace openSGPT.administracion
+namespace openSGPT
 {
     /// <summary>
-    /// Interaction logic for UsuarioDetalle.xaml
+    /// Interaction logic for ControlCorrespondencia.xaml
     /// </summary>
-    public partial class GestionFirmasManteniento : UserControl
+    public partial class ControlCorrespondencia : UserControl
     {
-        public GestionFirmasManteniento()
+        public ControlCorrespondencia()
         {
             InitializeComponent();
         }
