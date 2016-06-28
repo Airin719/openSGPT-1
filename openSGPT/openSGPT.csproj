@@ -62,6 +62,9 @@
     <Compile Include="administracion\GestionFirmasManteniento.xaml.cs">
       <DependentUpon>GestionFirmasManteniento.xaml</DependentUpon>
     </Compile>
+    <Compile Include="administracion\GestionTiempoEjecucion.xaml.cs">
+      <DependentUpon>GestionTiempoEjecucion.xaml</DependentUpon>
+    </Compile>
     <Compile Include="administracion\ParametrosMantenimiento.xaml.cs">
       <DependentUpon>ParametrosMantenimiento.xaml</DependentUpon>
     </Compile>
@@ -75,6 +78,10 @@
       <DependentUpon>pruebas.xaml</DependentUpon>
     </Compile>
     <Page Include="administracion\GestionFirmasManteniento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="administracion\GestionTiempoEjecucion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
