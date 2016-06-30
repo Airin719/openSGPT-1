@@ -59,13 +59,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="administracion\GestionControlReuniones.xaml.cs">
+    <Compile Include="auditoria\GestionControlReuniones.xaml.cs">
       <DependentUpon>GestionControlReuniones.xaml</DependentUpon>
     </Compile>
     <Compile Include="administracion\GestionFirmasManteniento.xaml.cs">
       <DependentUpon>GestionFirmasManteniento.xaml</DependentUpon>
     </Compile>
-    <Compile Include="administracion\GestionTiempoEjecucion.xaml.cs">
+    <Compile Include="auditoria\GestionTiempoEjecucion.xaml.cs">
       <DependentUpon>GestionTiempoEjecucion.xaml</DependentUpon>
     </Compile>
     <Compile Include="administracion\ParametrosMantenimiento.xaml.cs">
@@ -74,13 +74,13 @@
     <Compile Include="administracion\UsuarioManteniento.xaml.cs">
       <DependentUpon>UsuarioManteniento.xaml</DependentUpon>
     </Compile>
-    <Compile Include="administracion\ControlCorrespondencia.xaml.cs">
+    <Compile Include="auditoria\ControlCorrespondencia.xaml.cs">
       <DependentUpon>ControlCorrespondencia.xaml</DependentUpon>
     </Compile>
     <Compile Include="pruebas.xaml.cs">
       <DependentUpon>pruebas.xaml</DependentUpon>
     </Compile>
-    <Page Include="administracion\GestionControlReuniones.xaml">
+    <Page Include="auditoria\GestionControlReuniones.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -88,7 +88,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="administracion\GestionTiempoEjecucion.xaml">
+    <Page Include="auditoria\GestionTiempoEjecucion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -116,7 +116,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="administracion\ControlCorrespondencia.xaml">
+    <Page Include="auditoria\ControlCorrespondencia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

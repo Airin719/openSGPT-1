@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace openSGPT.administracion
+namespace openSGPT.auditoria
 {
     /// <summary>
-    /// Interaction logic for GestionTiempoEjecucion.xaml
+    /// Interaction logic for GestionControlReuniones.xaml
     /// </summary>
-    public partial class GestionTiempoEjecucion : UserControl
+    public partial class GestionControlReuniones : UserControl
     {
-        public GestionTiempoEjecucion()
+        public GestionControlReuniones()
         {
             InitializeComponent();
         }
